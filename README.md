@@ -1,7 +1,8 @@
 # アルゴリズム練習問題
-### 使用言語 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+## 使用言語 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### Question1
+## Question1
 
 下記の関数を書いてください。
 
@@ -40,3 +41,21 @@ Aは長さ1以上100以下の文字列である。Aが引数として与えら�
 例 2："abc" -> "a" または "b" または "c"(※ どれでもいいので)
 例 3："ppp" -> -1 (1 度だけ含まれる文字がないので)
 得意な言語で書いて、pull request を作成してください。
+
+---
+### Question3
+ 文字列 S（長さ1以上100以下）が引数として与えられます。
+ 左から順番に文字を見ていき、「2回目に出現した文字」を返してください。
+ そのような文字が存在しない場合は -1 を返してください。
+
+ 例1
+ 入力: "abac"
+ 出力: "a"
+
+ 例2
+ 入力: "abcabc"
+ 出力: "a"
+
+ 例3
+ 入力: "abcd"
+ 出力: -1
