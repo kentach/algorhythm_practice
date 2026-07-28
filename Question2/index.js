@@ -10,7 +10,6 @@ function solution (S) {
   const count = {}
 
   for (const word of S) {
-    
     if (count[word]) {
       count[word] ++
     } else {
@@ -18,13 +17,12 @@ function solution (S) {
     }
   }
   // {a: 1}があれば キーに「＋１」する
-
   for (const word of S) {
     if (count[word] === 1) {
       return word
     }
   }
-  
+
   return -1
 }
 // person["name"] = "kenta"
