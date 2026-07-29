@@ -1,24 +1,11 @@
 {
-  function findMostFrequentWord(S) {
-    let count = {};
-    for (const n of S) {
-      if (count[n]) {
-        count[n]++;
-      } else {
-        count[n] = 1; // { b:1, a:3, n:2 }
-      }
+  function spellBackward(S){
+    let result = ""
+    for(let i = S.length - 1; i >= 0; i-- ) {
+      result += S[i]
     }
-    let maxNum = 0;
-    let answer = "";
-    for (const key in count) {
-      if (count[key] > maxNum) {
-        maxNum = count[key];
-        answer = key
-      }
-    }
-    console.log(answer);
+    return result
   }
-
-  console.log(findMostFrequentWord("banana"));
-  console.log(findMostFrequentWord("aabbbbccd"));
+  console.log(spellBackward("hello"));
+  
 }
