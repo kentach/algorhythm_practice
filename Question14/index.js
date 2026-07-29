@@ -1,11 +1,15 @@
 {
-  function spellBackward(S){
-    let result = ""
-    for(let i = S.length - 1; i >= 0; i-- ) {
-      result += S[i]
+  function findVowel(S){
+    let result = "";
+    const vowel = "aiueo";
+
+    for(const n of S){
+      if(vowel.includes(n)){
+        result += n
+      }
     }
     return result
   }
-  console.log(spellBackward("hello"));
+  console.log(findVowel("javascript"));
   
 }
