@@ -8,8 +8,9 @@
         result += n
       }
     }
-    return result
+    return result ? result : -1
   }
   console.log(findVowel("javascript"));
+  console.log(findVowel("rhythm"));
   
 }
