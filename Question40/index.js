@@ -4,6 +4,7 @@
     let maxCount = 1;
   
     for (let i = 0; i < S.length - 1; i++) {
+  
       if (S[i] === S[i + 1]) {
         count++;
       } else {
