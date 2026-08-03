@@ -4,8 +4,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## Question1
-
-レベル：⭐️⭐️
+レベル：⭐️
 
 下記の関数を書いてください。
 Aは長さ1以上100以下の文字列である。Aが引数として与えられたとき、
@@ -42,7 +41,6 @@ Aは長さ1以上100以下の文字列である。Aが引数として与えら�
 ---
 
 ## Question2
-
 レベル：⭐️⭐️⭐️
 
 下記の関数を書いてください。
@@ -65,7 +63,6 @@ Aは長さ1以上100以下の文字列である。Aが引数として与えら�
   - 出力：-1
 
 ---
-
 ## Question3
 
 下記の関数を書いてください。
