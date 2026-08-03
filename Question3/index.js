@@ -1,25 +1,20 @@
 {
-  function solution (S) {
-    let count = {}
+  function solution(S){
+    let count = {};
+    for(const char of S){
+      count[char] = (count[char] || 0) + 1
+      // count[char]が 0 でなければ +1
+    }
 
-    for (const n of S) {
-      if (count[n]) {
-        count[n]++
-      } else {
-        count[n] = 1
+    for(const val in count){
+      if(count[val] === 2){
+        return val
       }
     }
-  
-    for (const n of S) {
-      if (count[n] === 2) {
-        return n
-      }
-    }
-  
     return -1
   }
-  console.log(solution("abac"));
-  console.log(solution("abcabc"));
-  console.log(solution("abcd"));
-  
+
+  console.log(solution("abac")); // a
+  console.log(solution("abcabc")); // a
+  console.log(solution("abcd")); // -1
 }

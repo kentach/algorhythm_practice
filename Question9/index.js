@@ -3,14 +3,12 @@
     let result = "";
 
     for (let i = 0; i < S.length; i++) {
-      const index = i + 1
-      if(index % 3 === 0) {
-        result += S[i]
+      if ((i + 1) % 3 === 0) {
+        result += S[i];
       }
     }
-    return result
+    return result;
   }
 
   console.log(multipleOfThree("abcdefghij"));
-  
 }
